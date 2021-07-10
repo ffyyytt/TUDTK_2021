@@ -13,7 +13,8 @@ Chuẩn bị: ta tải các bộ dataset về máy và đặt vào thư mục da
 
 - Tải *covid/covid19-canada.csv* từ [COVID-19 daily epidemiology update](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html)
 
-Để lấy dữ liệu về các chuyến bay ta chạy notebook *crawl_data.ipynb*.
+Để lấy dữ liệu về các chuyến bay ta chạy notebook *crawl_data.ipynb*. Dữ liệu về các chuyến bay được lấy từ [flightrada24](https://www.flightradar24.com/), cần phải có tài khoản từ bạc trở lên mới có thể download. Dùng hàm `f.login("username", "password")` để đăng nhập. Hoặc có thể chạy từ dữ liệu trong thư mục state của nhóm đã lưu.
+
 
 Tiếp theo ta chạy *process_positive_rate_world.ipynb* để tính tỷ lệ dương tính các quốc gia trên thế giới.
 
